@@ -1,0 +1,22 @@
+print('Hello, woodoo!')
+Food = {"z":"запеканка", "t":"творог", "g":"груша", "s":"сметана", "r":"Рыба", "h":"Хлеб", "o":"Овощи"}
+#print(Food)
+z = Food["z"]
+t = Food["t"]
+g = Food["g"]
+s = Food["s"]
+r = Food["r"]
+h = Food["h"]
+o = Food["o"]
+print(z, t, g, s)
+kcl = {"cz":1.7, "ct":2, "cg":0.7, "cs":1.55, "cr":2.5, "ch":2, "co":0.4}
+breakfast = (kcl["cz"]*170+kcl["ct"]*120+kcl["cg"]*200+kcl["cs"]*40+100)
+print('breakfast', breakfast)
+print(r, h, o)
+lunch = (kcl["cr"]*200+kcl["ch"]*40+kcl["co"]*150)
+print('Lunch', lunch)
+print(r, h, o)
+supper = (kcl["cr"]*180+kcl["ch"]*10+kcl["co"]*230)
+print('Supper', supper)
+print('SUMMARY: ', breakfast+lunch+supper)
+print('Well done!')
